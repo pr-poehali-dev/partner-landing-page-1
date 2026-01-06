@@ -7,8 +7,12 @@ const Index = () => {
     <div className="min-h-screen bg-cream font-sans text-foreground">
       <section className="min-h-screen flex items-center justify-center px-6 py-20 bg-gradient-to-b from-beige to-cream">
         <div className="max-w-4xl mx-auto text-center space-y-8 animate-fade-in">
-          <div className="w-40 h-40 mx-auto rounded-full bg-sage/10 mb-8 flex items-center justify-center">
-            <Icon name="User" size={80} className="text-sage" />
+          <div className="w-48 h-48 mx-auto rounded-full overflow-hidden mb-8 shadow-lg border-4 border-sage/20">
+            <img 
+              src="https://cdn.poehali.dev/projects/2bb33266-636d-437a-9cab-ecc537401455/files/508bfd22-94ae-4395-a5b7-643d002a379e.jpg" 
+              alt="Ландыш Сиразутдинова"
+              className="w-full h-full object-cover"
+            />
           </div>
           
           <h1 className="font-heading text-5xl md:text-6xl font-bold text-sage leading-tight">
