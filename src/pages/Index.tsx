@@ -80,10 +80,36 @@ const Index = () => {
       <section className="py-24 px-6 bg-beige">
         <div className="max-w-6xl mx-auto">
           <h2 className="font-heading text-4xl font-bold text-sage text-center mb-16">
-            Реальные результаты
+            Результаты наших клиентов
           </h2>
           
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid md:grid-cols-3 gap-6 mb-12">
+            <div className="rounded-2xl overflow-hidden shadow-lg bg-white">
+              <img 
+                src="https://cdn.poehali.dev/files/d8a13519-00eb-4878-8c98-8192d64dac24.jpeg"
+                alt="Результат 2-3 дня"
+                className="w-full h-auto"
+              />
+            </div>
+
+            <div className="rounded-2xl overflow-hidden shadow-lg bg-white">
+              <img 
+                src="https://cdn.poehali.dev/files/294bc522-ede0-41db-939f-d4dd660369f6.jpeg"
+                alt="Результаты клиентов до и после"
+                className="w-full h-auto"
+              />
+            </div>
+
+            <div className="rounded-2xl overflow-hidden shadow-lg bg-white">
+              <img 
+                src="https://cdn.poehali.dev/files/575775a3-9f68-4148-8592-f1858069e3bf.jpeg"
+                alt="Результаты клиентов до и после"
+                className="w-full h-auto"
+              />
+            </div>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-8 mt-12">
             <Card className="p-8 bg-white border-none shadow-sm hover:shadow-md transition-shadow animate-scale-in">
               <div className="flex items-start gap-4 mb-4">
                 <Icon name="Heart" size={32} className="text-sage flex-shrink-0" />
