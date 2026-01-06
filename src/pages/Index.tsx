@@ -9,7 +9,7 @@ const Index = () => {
         <div className="max-w-4xl mx-auto text-center space-y-8 animate-fade-in">
           <div className="w-48 h-48 mx-auto rounded-full overflow-hidden mb-8 shadow-lg border-4 border-sage/20">
             <img 
-              src="https://cdn.poehali.dev/projects/2bb33266-636d-437a-9cab-ecc537401455/files/508bfd22-94ae-4395-a5b7-643d002a379e.jpg" 
+              src="https://cdn.poehali.dev/files/IMG_5053.jpeg" 
               alt="Ландыш Сиразутдинова"
               className="w-full h-full object-cover"
             />
