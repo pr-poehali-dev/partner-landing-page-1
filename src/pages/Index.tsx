@@ -152,12 +152,78 @@ const Index = () => {
       </section>
 
       <section className="py-24 px-6 bg-white">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="font-heading text-4xl font-bold text-sage text-center mb-12">
-            Мой личный опыт с продукцией
+        <div className="max-w-6xl mx-auto">
+          <h2 className="font-heading text-4xl font-bold text-sage text-center mb-16">
+            Знакомство с продукцией LR
           </h2>
           
-          <div className="space-y-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
+            <Card className="p-6 bg-beige/30 border-none shadow-sm hover:shadow-md transition-shadow">
+              <div className="aspect-square bg-white rounded-xl flex items-center justify-center mb-4 p-4">
+                <img 
+                  src="https://cdn.poehali.dev/projects/2bb33266-636d-437a-9cab-ecc537401455/files/24cab2fd-35bf-4f99-a48c-71b35498ae1e.jpg"
+                  alt="Алоэ Вера Гель Персик"
+                  className="w-full h-full object-contain"
+                />
+              </div>
+              <h3 className="font-heading text-lg font-semibold text-sage text-center mb-2">
+                Алоэ Вера Гель Персик
+              </h3>
+              <p className="text-sm text-warmGray/80 text-center">
+                Для очищения организма и укрепления иммунитета
+              </p>
+            </Card>
+
+            <Card className="p-6 bg-beige/30 border-none shadow-sm hover:shadow-md transition-shadow">
+              <div className="aspect-square bg-white rounded-xl flex items-center justify-center mb-4 p-4">
+                <img 
+                  src="https://cdn.poehali.dev/projects/2bb33266-636d-437a-9cab-ecc537401455/files/b511b3cb-d843-4a4b-9123-bd97dc298cf2.jpg"
+                  alt="Pro Balance"
+                  className="w-full h-full object-contain"
+                />
+              </div>
+              <h3 className="font-heading text-lg font-semibold text-sage text-center mb-2">
+                Pro Balance
+              </h3>
+              <p className="text-sm text-warmGray/80 text-center">
+                Минеральный комплекс для баланса организма
+              </p>
+            </Card>
+
+            <Card className="p-6 bg-beige/30 border-none shadow-sm hover:shadow-md transition-shadow">
+              <div className="aspect-square bg-white rounded-xl flex items-center justify-center mb-4 p-4">
+                <img 
+                  src="https://cdn.poehali.dev/projects/2bb33266-636d-437a-9cab-ecc537401455/files/7a44ca02-bf5b-42c1-b0b2-adfe822a5b88.jpg"
+                  alt="Pro 12"
+                  className="w-full h-full object-contain"
+                />
+              </div>
+              <h3 className="font-heading text-lg font-semibold text-sage text-center mb-2">
+                Pro 12
+              </h3>
+              <p className="text-sm text-warmGray/80 text-center">
+                12 штаммов пробиотиков для здоровья ЖКТ
+              </p>
+            </Card>
+
+            <Card className="p-6 bg-beige/30 border-none shadow-sm hover:shadow-md transition-shadow">
+              <div className="aspect-square bg-white rounded-xl flex items-center justify-center mb-4 p-4">
+                <img 
+                  src="https://cdn.poehali.dev/projects/2bb33266-636d-437a-9cab-ecc537401455/files/f4b60c0f-5162-4be2-b327-ba3df52987eb.jpg"
+                  alt="Mind Master"
+                  className="w-full h-full object-contain"
+                />
+              </div>
+              <h3 className="font-heading text-lg font-semibold text-sage text-center mb-2">
+                Mind Master
+              </h3>
+              <p className="text-sm text-warmGray/80 text-center">
+                Для концентрации внимания и работы мозга
+              </p>
+            </Card>
+          </div>
+
+          <div className="max-w-4xl mx-auto space-y-8">
             <Card className="p-8 bg-beige/30 border-none">
               <h3 className="font-heading text-xl font-semibold text-sage mb-4">
                 Я сама регулярно использую продукцию LR:
@@ -224,16 +290,16 @@ const Index = () => {
             </Card>
 
             <Card className="p-6 bg-white border-none text-center shadow-sm hover:shadow-md transition-shadow">
-              <Icon name="TrendingUp" size={40} className="text-sage mx-auto mb-4" />
+              <Icon name="Calendar" size={40} className="text-sage mx-auto mb-4" />
               <p className="text-warmGray/90 leading-relaxed">
-                Компания растёт и бьёт мировые рекорды второй год подряд
+                40 лет на рынке, 15 лет в России
               </p>
             </Card>
 
             <Card className="p-6 bg-white border-none text-center shadow-sm hover:shadow-md transition-shadow">
-              <Icon name="Users" size={40} className="text-sage mx-auto mb-4" />
+              <Icon name="TrendingUp" size={40} className="text-sage mx-auto mb-4" />
               <p className="text-warmGray/90 leading-relaxed">
-                Тысячи благодарных клиентов
+                2-е место в России по товарообороту в 2026 году
               </p>
             </Card>
 
