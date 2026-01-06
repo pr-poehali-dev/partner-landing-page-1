@@ -42,27 +42,37 @@ const Index = () => {
       </section>
 
       <section id="story" className="py-24 px-6 bg-white">
-        <div className="max-w-3xl mx-auto space-y-6 animate-fade-in">
+        <div className="max-w-5xl mx-auto space-y-8 animate-fade-in">
           <h2 className="font-heading text-4xl font-bold text-sage text-center mb-12">
             Моя история
           </h2>
           
-          <div className="prose prose-lg max-w-none space-y-6 text-warmGray/90 leading-relaxed">
-            <p>
-              Моё знакомство с LR началось не с бизнеса, а с семьи.
-            </p>
-            
-            <p>
-              У моего племянника внезапно появилась сильная крапивница, и мы долго не могли понять причину.
-            </p>
-            
-            <p>
-              После рекомендаций продукции LR — геля Алоэ Персик и минералов Pro Balance — и грамотной дозировки, он полностью восстановился.
-            </p>
-            
-            <p className="text-sage font-medium text-xl">
-              Так LR стала частью нашей семьи, а позже — делом, в которое я по-настоящему поверила.
-            </p>
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div className="prose prose-lg max-w-none space-y-6 text-warmGray/90 leading-relaxed">
+              <p>
+                Моё знакомство с LR началось не с бизнеса, а с семьи.
+              </p>
+              
+              <p>
+                У моего племянника внезапно появилась сильная крапивница, и мы долго не могли понять причину.
+              </p>
+              
+              <p>
+                После рекомендаций продукции LR — геля Алоэ Персик и минералов Pro Balance — и грамотной дозировки, он полностью восстановился.
+              </p>
+              
+              <p className="text-sage font-medium text-xl">
+                Так LR стала частью нашей семьи, а позже — делом, в которое я по-настоящему поверила.
+              </p>
+            </div>
+
+            <div className="rounded-2xl overflow-hidden shadow-xl">
+              <img 
+                src="https://cdn.poehali.dev/files/e9932cb1-2e18-4a8a-a49e-975b44e29fbe.jpeg"
+                alt="До и после использования продукции LR"
+                className="w-full h-auto"
+              />
+            </div>
           </div>
         </div>
       </section>
