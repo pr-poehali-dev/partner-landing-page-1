@@ -169,9 +169,17 @@ const Index = () => {
               <h3 className="font-heading text-lg font-semibold text-sage text-center mb-2">
                 Алоэ Вера Гель Персик
               </h3>
-              <p className="text-sm text-warmGray/80 text-center">
+              <p className="text-sm text-warmGray/80 text-center mb-4">
                 Для очищения организма и укрепления иммунитета
               </p>
+              <Button 
+                variant="outline" 
+                size="sm"
+                className="w-full border-sage text-sage hover:bg-sage hover:text-white"
+                onClick={() => window.open('https://shop.lrworld.ru/', '_blank')}
+              >
+                Узнать подробнее
+              </Button>
             </Card>
 
             <Card className="p-6 bg-beige/30 border-none shadow-sm hover:shadow-md transition-shadow">
@@ -185,9 +193,17 @@ const Index = () => {
               <h3 className="font-heading text-lg font-semibold text-sage text-center mb-2">
                 Pro Balance
               </h3>
-              <p className="text-sm text-warmGray/80 text-center">
+              <p className="text-sm text-warmGray/80 text-center mb-4">
                 Минеральный комплекс для баланса организма
               </p>
+              <Button 
+                variant="outline" 
+                size="sm"
+                className="w-full border-sage text-sage hover:bg-sage hover:text-white"
+                onClick={() => window.open('https://shop.lrworld.ru/', '_blank')}
+              >
+                Узнать подробнее
+              </Button>
             </Card>
 
             <Card className="p-6 bg-beige/30 border-none shadow-sm hover:shadow-md transition-shadow">
@@ -201,9 +217,17 @@ const Index = () => {
               <h3 className="font-heading text-lg font-semibold text-sage text-center mb-2">
                 Pro 12
               </h3>
-              <p className="text-sm text-warmGray/80 text-center">
+              <p className="text-sm text-warmGray/80 text-center mb-4">
                 12 штаммов пробиотиков для здоровья ЖКТ
               </p>
+              <Button 
+                variant="outline" 
+                size="sm"
+                className="w-full border-sage text-sage hover:bg-sage hover:text-white"
+                onClick={() => window.open('https://shop.lrworld.ru/', '_blank')}
+              >
+                Узнать подробнее
+              </Button>
             </Card>
 
             <Card className="p-6 bg-beige/30 border-none shadow-sm hover:shadow-md transition-shadow">
@@ -217,9 +241,17 @@ const Index = () => {
               <h3 className="font-heading text-lg font-semibold text-sage text-center mb-2">
                 Mind Master
               </h3>
-              <p className="text-sm text-warmGray/80 text-center">
+              <p className="text-sm text-warmGray/80 text-center mb-4">
                 Для концентрации внимания и работы мозга
               </p>
+              <Button 
+                variant="outline" 
+                size="sm"
+                className="w-full border-sage text-sage hover:bg-sage hover:text-white"
+                onClick={() => window.open('https://shop.lrworld.ru/', '_blank')}
+              >
+                Узнать подробнее
+              </Button>
             </Card>
           </div>
 
