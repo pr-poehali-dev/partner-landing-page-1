@@ -483,7 +483,7 @@ const Index = () => {
               size="lg" 
               variant="outline"
               className="bg-transparent border-2 border-white text-white hover:bg-white/10 px-8 py-6 text-lg rounded-full font-semibold"
-              onClick={() => window.open('#', '_blank')}
+              onClick={() => window.open('https://shop.lrworld.ru/login/?register=yes&referal_id=615739', '_blank')}
             >
               Зарегистрироваться
             </Button>
