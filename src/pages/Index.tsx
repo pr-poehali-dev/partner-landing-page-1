@@ -473,7 +473,7 @@ const Index = () => {
             <Button 
               size="lg" 
               className="bg-white text-sage hover:bg-white/90 px-8 py-6 text-lg rounded-full font-semibold"
-              onClick={() => window.open('https://telegram.me/', '_blank')}
+              onClick={() => window.open('https://t.me/LA_1022', '_blank')}
             >
               <Icon name="Send" size={20} className="mr-2" />
               Написать в Telegram
