@@ -161,7 +161,7 @@ const Index = () => {
             <Card className="p-6 bg-beige/30 border-none shadow-sm hover:shadow-md transition-shadow">
               <div className="aspect-square bg-white rounded-xl flex items-center justify-center mb-4 p-4">
                 <img 
-                  src="https://cdn.poehali.dev/projects/2bb33266-636d-437a-9cab-ecc537401455/files/3f932438-a186-406c-a653-685c4fb251b8.jpg"
+                  src="https://cdn.poehali.dev/projects/2bb33266-636d-437a-9cab-ecc537401455/bucket/8fb66d14-a307-4376-b0f6-0a6c0208ae4d.png"
                   alt="Алоэ Вера Гель Персик"
                   className="w-full h-full object-contain"
                 />
@@ -185,7 +185,7 @@ const Index = () => {
             <Card className="p-6 bg-beige/30 border-none shadow-sm hover:shadow-md transition-shadow">
               <div className="aspect-square bg-white rounded-xl flex items-center justify-center mb-4 p-4">
                 <img 
-                  src="https://cdn.poehali.dev/projects/2bb33266-636d-437a-9cab-ecc537401455/files/b511b3cb-d843-4a4b-9123-bd97dc298cf2.jpg"
+                  src="https://cdn.poehali.dev/projects/2bb33266-636d-437a-9cab-ecc537401455/bucket/f8b00775-5fe8-47aa-bbbf-b93d8fe01dcc.png"
                   alt="Pro Balance"
                   className="w-full h-full object-contain"
                 />
@@ -209,7 +209,7 @@ const Index = () => {
             <Card className="p-6 bg-beige/30 border-none shadow-sm hover:shadow-md transition-shadow">
               <div className="aspect-square bg-white rounded-xl flex items-center justify-center mb-4 p-4">
                 <img 
-                  src="https://cdn.poehali.dev/projects/2bb33266-636d-437a-9cab-ecc537401455/bucket/2fe1ade0-1404-4099-8a51-31d852458de1.png"
+                  src="https://cdn.poehali.dev/projects/2bb33266-636d-437a-9cab-ecc537401455/bucket/936c91a8-ac04-410f-b446-f6d4d40acf3b.png"
                   alt="Pro 12"
                   className="w-full h-full object-contain"
                 />
