@@ -161,7 +161,7 @@ const Index = () => {
             <Card className="p-6 bg-beige/30 border-none shadow-sm hover:shadow-md transition-shadow">
               <div className="aspect-square bg-white rounded-xl flex items-center justify-center mb-4 p-4">
                 <img 
-                  src="https://cdn.poehali.dev/projects/2bb33266-636d-437a-9cab-ecc537401455/files/24cab2fd-35bf-4f99-a48c-71b35498ae1e.jpg"
+                  src="https://cdn.poehali.dev/projects/2bb33266-636d-437a-9cab-ecc537401455/files/3f932438-a186-406c-a653-685c4fb251b8.jpg"
                   alt="Алоэ Вера Гель Персик"
                   className="w-full h-full object-contain"
                 />
