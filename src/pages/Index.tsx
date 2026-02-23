@@ -233,7 +233,7 @@ const Index = () => {
             <Card className="p-6 bg-beige/30 border-none shadow-sm hover:shadow-md transition-shadow">
               <div className="aspect-square bg-white rounded-xl flex items-center justify-center mb-4 p-4">
                 <img 
-                  src="https://cdn.poehali.dev/projects/2bb33266-636d-437a-9cab-ecc537401455/files/f4b60c0f-5162-4be2-b327-ba3df52987eb.jpg"
+                  src="https://cdn.poehali.dev/projects/2bb33266-636d-437a-9cab-ecc537401455/bucket/8e1e6098-a405-4318-8019-ba01f6900fe1.png"
                   alt="Mind Master"
                   className="w-full h-full object-contain"
                 />
